@@ -1,0 +1,38 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  padding: 60px;
+}
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: gray;
+}
+.card{
+  max-width: 280px;
+  max-height: 230px;
+  justify-content: center;
+  margin: 5px;
+  border: 1px solid black;
+}
+.img-container{
+  overflow: hidden;
+  text-align: center;
+  max-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img{
+  display: block;
+  width: 100%;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container p{
+  font-size: 13px;
+  padding: 2px;
+}
